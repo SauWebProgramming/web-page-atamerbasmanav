@@ -5,62 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kayıt Ekranı</title>
-<style>
-form{
-   text-align: center;
-    margin: 1cm;
-    
-}
-.formkutu{
+    <title>Evcil Hayvanların Dünyası</title>
+    <style>
+        form {
+            text-align: center;
+            margin: 1cm;
 
-    margin: 5px;
-}
+        }
 
-.tanitim{
-    text-align: center;
-}
-footer {
-            background-color: rgb(0, 0, 0);
+        .formkutu {
+
+            margin: 5px;
+        }
+
+        .tanitim {
+            text-align: center;
+        }
+
+
+        footer {
+            background-color: rgb(247, 247, 247);
             margin: 0.9cm;
             padding: 1cm;
-            color: rgb(255, 255, 255);
+            color: rgb(209, 209, 209);
             ;
         }
-</style>
+
+        .multi {
+            /* Column count property */
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+
+            /* Column gap property */
+            -webkit-column-gap: 40px;
+            -moz-column-gap: 40px;
+            column-gap: 40px;
+
+
+        }
+    </style>
 </head>
 
 <body>
-        <header style="text-align:center" id="logo">
-                <img src="logo2.png" width="55%" alt="logo/yüklenemedi">
+    <header style="text-align:center" id="logo">
+        <a href="ana_ekran.html"><img src="logo2.png" width="55%" alt="logo/yüklenemedi"></a>
         
-                <!-- MENÜ EKLENECEK-->
-        
-            <div id="test_menü_görünümü">
-                <p id="test"> Evcil Hayvanlar | Ana Sayfa | Hakkımızda | İletişim | İlanlar | Duyurular </p>
-            </div>
-            <!-- MENÜNÜN NASIL GÖRÜNECEĞİ HAKKINDA, GÖRSELLİK İÇİN TEST MENÜSÜ-->
-        
-        
-            </header>
+
+        <!-- MENÜ EKLENECEK-->
+
+        <div id="test_menü_görünümü">
+            <p id="test"> Evcil Hayvanlar | Ana Sayfa | Hakkımızda | İletişim | İlanlar | Duyurular </p>
+        </div>
+        <!-- MENÜNÜN NASIL GÖRÜNECEĞİ HAKKINDA, GÖRSELLİK İÇİN TEST MENÜSÜ-->
+
+
+    </header>
 
     <main>
         <div class="tanitim">
-        <h1>Kayıt Formu!</h1>
-        <P>
+            <h1>Kayıt Formu!</h1>
+            <P>
 
-            <B>Evcil Hayvanların Dünyası</B>'na katılmak için tek yapman gereken şey aşağıda formu eksiksiz bir şekilde
-            doldurmak,
-            aramıza hoş geldin!
-        </P>
-      </div>
+                <B>Evcil Hayvanların Dünyası</B>'na katılmak için tek yapman gereken şey aşağıda formu eksiksiz bir
+                şekilde
+                doldurmak,
+                aramıza hoş geldin!
+            </P>
+        </div>
         <form method="GET">
             <input type="text" name="isim" id="isim" placeholder="İsminizi girin" class="formkutu">
 
             <input type="text" name="soyisim" id="soyisim" placeholder="Soyisminizi girin" class="formkutu">
             <br>
 
-            <input type="text" name="kullanici_adi" id="kullanici_adi" placeholder="Kullanıcı adınızı giriniz" class="formkutu">
+            <input type="text" name="kullanici_adi" id="kullanici_adi" placeholder="Kullanıcı adınızı giriniz"
+                class="formkutu">
             <input type="password" name="sifre" id="sifre" placeholder="Şifrenizi girin" class="formkutu">
             <br>
             <input type="text" name="e_posta" id="e_posta" placeholder="E-posta adresinizi girin" class="formkutu">
@@ -70,31 +90,43 @@ footer {
             <br>
             <input type="submit" value="Gönder" class="formkutu">
         </form>
-  <img src="serit2.png" width="100%" alt="ef"> </main>
-
+        <img src="serit2.png" width="100%" alt="ef">
+    </main>
 
 
 
     <footer>
 
-
-        <h3><strong> <ins>İletişim Bilgileri</ins> </strong></h3>
-        <p> <strong> E-posta:</strong> <i> evcilhayvanlarındünyasi@gmail.com</i></p>
-        <p> <strong> Telefon</strong> <i> +90 0000 000 00 00</i></p>
-        <p> <strong> İnstagram</strong></p>
-        <p> <strong> Facebook</strong></p>
-        <p> <strong> Twitter</strong></p>
+        <div class="multi">
 
 
+            <h3><strong> <ins>İletişim Bilgileri</ins> </strong></h3>
+            <strong> E-posta:</strong> <i> evcilhayvanlarındünyasi@gmail.com</i>
+            <br>
+            <strong> Telefon</strong> <i> +90 0000 000 00 00</i>
+            <br>
+            <h3><strong> <ins>Sosyal Medya</ins> </strong></h3>
+            <br>
+            <i> İnstagram</i>
+            <br>
+            <i> Facebook</i>
+            <br>
+            <i> Twitter</i>
+            <br>
+            <h3><strong> <ins>Menü</ins> </strong></h3>
+            <i> Hakkımızda</i>
+            <br>
+            <i> İletişim</i>
+            <br>
+            <i> İlanlar</i>
+            <br>
+            <i> Duyurular</i>
+            <br>
+
+
+        </div>
     </footer>
 
-
-
-
-
-
-
-   
 </body>
 
 </html>
