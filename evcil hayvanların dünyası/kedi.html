@@ -6,7 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Evcil Hayvanların Dünyası</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
     <style>
+        h1 {
+            font-family: Aaux ProLight;
+        }
+
         #ana_sayfa_hayvan_logoları {
             text-align: center;
         }
@@ -22,11 +38,13 @@
 
         }
 
+
         footer {
-            background-color: rgb(247, 247, 247);
+            background-image: url(ftr.png);
+
             margin: 0.9cm;
             padding: 1cm;
-            color: rgb(209, 209, 209);
+            color: white;
             ;
         }
 
@@ -40,8 +58,10 @@
             -webkit-column-gap: 40px;
             -moz-column-gap: 40px;
             column-gap: 40px;
+        }
 
-
+        main {
+            width: 99%;
         }
     </style>
 
@@ -49,7 +69,7 @@
 
 <body>
     <header style="text-align:center">
-        <a href="ana_ekran.html" target="blank"><img src="logo2.png" width="55%" alt="logo/yüklenemedi"></a>
+        <a href="ana_ekran.html"><img src="logo2.png" width="55%" alt="logo/yüklenemedi"></a>
         <!-- MENÜ EKLENECEK-->
 
         <div id="test_menü_görünümü">
@@ -64,94 +84,123 @@
     <main>
         <div style="text-align: center;">
             <img src="kedi.png" width="20%" alt="resim yüklenemedi"></div>
-        <br>
-        <p style="text-align: center;">
-            <b> İşte kediler! </b> Ne kadar da tatlılar değil mi?
-            <br>
-            Ne kadar fazla türlerinin olduğunu inanamazsın,
-            yer yüzünde 33 farklı ırktan çoğalan 500 milyonun üzerinde evcil kedi bulunmaktadır.
-            <br>
-            Bu türlerin çoğu yer yüzünün farklı bölgelerine dağılmış bir şekilde yaşam sürmektedir.
-            <br>
-            Bizim ülkemiz, Türkiye'de en çok görünen on kedi türü; Ankara Kedisi, Van Kedisi, Tekir, British Shorthair,
-            Smokin, İran Kedisi, Siyam Kedisi, Bombay, Scottish Fold ve Chinchilla türleridir.
-            <br>
 
-            <h1 style="text-align: center;">Kedilerin Temizlenmesi ve Bakımı Nasıl Yapılır?</h1>
-            Evlerimizde, bahçemizde ve sokaklarımızda bizlerle birlikte yaşamlarını sürdürürler. Evlerimizde
-            beslediğimiz kediler, ev hayatına alışmış olduklarından dışarıda yaşamakta, avlanmakta ve kendilerini
-            korumakta güçlük çekebilirler.
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <br>
+                <b> İşte kediler! </b> Ne kadar da tatlılar değil mi?
+                Ne kadar fazla türlerinin olduğunu inanamazsın,
+                yer yüzünde 33 farklı ırktan çoğalan 500 milyonun üzerinde evcil kedi bulunmaktadır.
+                Bu türlerin çoğu yer yüzünün farklı bölgelerine dağılmış bir şekilde yaşam sürmektedir.
+                Bizim ülkemiz, Türkiye'de en çok görünen on kedi türü; Ankara Kedisi, Van Kedisi, Tekir, British
+                Shorthair,
+                Smokin, İran Kedisi, Siyam Kedisi, Bombay, Scottish Fold ve Chinchilla türleridir.
+                <br>
+                <img src="kd1.png" style="padding-top: 40px;" width="100%" alt="köpek resmi">
+                <br>
+                <br>
+                <h1 style="text-align: center;">Kedilerin Temizlenmesi ve Bakımı Nasıl Yapılır?</h1>
+                <br>
+                Evlerimizde, bahçemizde ve sokaklarımızda bizlerle birlikte yaşamlarını sürdürürler. Evlerimizde
+                beslediğimiz kediler, ev hayatına alışmış olduklarından dışarıda yaşamakta, avlanmakta ve kendilerini
+                korumakta güçlük çekebilirler.
 
-            Bu nedenle de evde yaşamaya alışkın olan kedilerin, dışarıya bırakılması doğru bir davranış şekli değildir.
-            En kötü ihtimalle başka kedi sever ailelere verilmelidirler.
+                Bu nedenle de evde yaşamaya alışkın olan kedilerin, dışarıya bırakılması doğru bir davranış şekli
+                değildir.
+                En kötü ihtimalle başka kedi sever ailelere verilmelidirler.
 
-            Böylece sokak hayatına alışkın olmayan kediler, sokakta ki başka hayvan saldırıları, araba çarpmaları ve
-            kuru mamaya alışmış olduklarından çöpten beslenmede zorluk çekerek, aç kalmak gibi tehlikelerden korunmuş
-            olurlar.
+                Böylece sokak hayatına alışkın olmayan kediler, sokakta ki başka hayvan saldırıları, araba çarpmaları ve
+                kuru mamaya alışmış olduklarından çöpten beslenmede zorluk çekerek, aç kalmak gibi tehlikelerden
+                korunmuş
+                olurlar.
 
-            Kediler, evcilleşerek çok sevimli birer ev hayvanına dönüşmüşlerdir. Fakat doğaları gereği avcıdırlar ve her
-            ne kadar onlara verilen özel mamalarla beslenseler de evde hayali avlarını kovalamaktan vazgeçmezler.
+                Kediler, evcilleşerek çok sevimli birer ev hayvanına dönüşmüşlerdir. Fakat doğaları gereği avcıdırlar ve
+                her
+                ne kadar onlara verilen özel mamalarla beslenseler de evde hayali avlarını kovalamaktan vazgeçmezler.
 
-            Beslendikleri evde veya bahçede fare veya haşereleri tok olsalar bile avcı içgüdüleriyle yakalarlar. Çünkü
-            kediler yemek için değil, avcı özelliklerinin verdiği içgüdüyle öldürürler.
+                Beslendikleri evde veya bahçede fare veya haşereleri tok olsalar bile avcı içgüdüleriyle yakalarlar.
+                Çünkü
+                kediler yemek için değil, avcı özelliklerinin verdiği içgüdüyle öldürürler.
 
-            Evinde veya bahçesinde kedi besleyen kedi severler, çoğu zaman öldürülmüş bir kuş yada sineği kendi önlerine
-            getiren kedilerine şaşırarak bakarlar.
+                Evinde veya bahçesinde kedi besleyen kedi severler, çoğu zaman öldürülmüş bir kuş yada sineği kendi
+                önlerine
+                getiren kedilerine şaşırarak bakarlar.
 
-            Oysa kedilerin yapmak istediği şey size hediye vermek ve gözünüze girmektir. Çoğu zaman avladıkları bu
-            hayvanları yemezler, sadece oynarlar. Kediler evcilleştirilmeleriyle birlikte artık ev yemeklerine veya
-            onlar için özel üretilen kuru mama ve yaş mama seçeneklerine alışmışlardır.
+                Oysa kedilerin yapmak istediği şey size hediye vermek ve gözünüze girmektir. Çoğu zaman avladıkları bu
+                hayvanları yemezler, sadece oynarlar. Kediler evcilleştirilmeleriyle birlikte artık ev yemeklerine veya
+                onlar için özel üretilen kuru mama ve yaş mama seçeneklerine alışmışlardır.
 
-            Hatta kuru mamaya alışmış birçok ev kedisi başka bir yemeği yemeyi reddecektir. Onlar için alınan bu özel
-            mamalarda, vücutlarının ihtiyacı olan tüm besinler karıştırılmış olarak bulunmaktadır ve onların damak tadı
-            düşünülerek hazırlanmıştır.
+                Hatta kuru mamaya alışmış birçok ev kedisi başka bir yemeği yemeyi reddecektir. Onlar için alınan bu
+                özel
+                mamalarda, vücutlarının ihtiyacı olan tüm besinler karıştırılmış olarak bulunmaktadır ve onların damak
+                tadı
+                düşünülerek hazırlanmıştır.
 
-            Buna rağmen bazı kediler çok seçici davranır ve her mamayı beğenmez. Bu sebeple kedinizin seveceği mamayı
-            bulana dek, mamaları küçük paketler halinde almanız doğru olacaktır.
+                Buna rağmen bazı kediler çok seçici davranır ve her mamayı beğenmez. Bu sebeple kedinizin seveceği
+                mamayı
+                bulana dek, mamaları küçük paketler halinde almanız doğru olacaktır.
+                <img src="kd2.png" style="padding-top: 0px;" width="100%" alt="köpek resmi">
+                <br>
+                <h1 style="text-align: center;">Kedilere Yemek Nasıl Verilmeli?</h1>
+                <br>
+                Kedilere verilen su veya mamalar çelik, porselen veya cam kaselerde verilmelidir. Kediler için özel
+                olarak
+                üretilen, evcil hayvan dükkanlarında veya veterinerlerde bulunan su ve mama kaplarından da
+                alabilirsiniz.
 
-            <h1 style="text-align: center;">Kedilere Yemek Nasıl Verilmeli?</h1>
-            Kedilere verilen su veya mamalar çelik, porselen veya cam kaselerde verilmelidir. Kediler için özel olarak
-            üretilen, evcil hayvan dükkanlarında veya veterinerlerde bulunan su ve mama kaplarından da alabilirsiniz.
+                Özellikle çelik olan kaplar, kedinizin devirip kıramayacağı malzemeden üretilmiş olması sebebiyle, olası
+                kazalara karşı da kedinizi koruması açısından en doğru seçimdir. Kedilere plastik kaplarda yemek ve su
+                verilmemelidir.
 
-            Özellikle çelik olan kaplar, kedinizin devirip kıramayacağı malzemeden üretilmiş olması sebebiyle, olası
-            kazalara karşı da kedinizi koruması açısından en doğru seçimdir. Kedilere plastik kaplarda yemek ve su
-            verilmemelidir.
+                Sıcak yemeklerde ve uzun süre bekleyen sularda, plastiğin kanserojen madde üretmesi, insan sağlığına
+                olduğu
+                gibi hayvan sağlığına da zararlıdır.
 
-            Sıcak yemeklerde ve uzun süre bekleyen sularda, plastiğin kanserojen madde üretmesi, insan sağlığına olduğu
-            gibi hayvan sağlığına da zararlıdır.
+                Ayrıca çoğu kedi plastik kaplarda beklemiş mama ve suyu, oluşan kötü koku sebebiyle tüketmek istemez.
 
-            Ayrıca çoğu kedi plastik kaplarda beklemiş mama ve suyu, oluşan kötü koku sebebiyle tüketmek istemez.
+                Kediler kokulara karşı çok duyarlı canlılardır. Genel olarak az su tüketen canlılar olan kediler,
+                beklemiş
+                ve kokulu bir suyu içmek istemeyeceklerdir. Çoğu kedi taze su içmek ister. Bu sebeple su kabından
+                içmeyip,
+                musluktan akan suyu içmeyi tercih eden kedi sayısı oldukça fazladır.
 
-            Kediler kokulara karşı çok duyarlı canlılardır. Genel olarak az su tüketen canlılar olan kediler, beklemiş
-            ve kokulu bir suyu içmek istemeyeceklerdir. Çoğu kedi taze su içmek ister. Bu sebeple su kabından içmeyip,
-            musluktan akan suyu içmeyi tercih eden kedi sayısı oldukça fazladır.
+                Kedileri su içmeye özendirmek için, küçük bir şelaleyi andıran özel su kapları üretilmiştir. Özellikle
+                akan
+                su içmekten hoşlanan kediler için, suyu devir daim yaparak, her zaman taze tutan bu su kapları da tercih
+                edilebilir.
+                <img src="kd3.png" style="padding-top: 40px;" width="100%" alt="köpek resmi">
+                <br>
+                <br>
+                <h1 style="text-align: center;">Kedilere Hangi Ev Yemekleri Verilir – Ev Yemeklerinin Zararları?</h1>
+                <br>
+                Kedinize ev yemeklerinden vermek istiyorsanız, daha küçükken alıştırmanız en doğrusudur. Vereceğiniz
+                yemekler et, (tavuk, balık ve kırmızı et) haşlanmış yumurta, gibi protein ağırlıklı olmalıdır. Çünkü
+                kediler
+                doğaları gereği proteinle beslenmelidirler.
 
-            Kedileri su içmeye özendirmek için, küçük bir şelaleyi andıran özel su kapları üretilmiştir. Özellikle akan
-            su içmekten hoşlanan kediler için, suyu devir daim yaparak, her zaman taze tutan bu su kapları da tercih
-            edilebilir.
+                Ancak kedilere çiğ et vermek iç parazit oluşumuna neden olduğu için yanlıştır ve hem kedi hem de
+                besleyen
+                sahipleri için ciddi sağlık sıkıntılarına yol açabilir. Aynı nedenle sosis,salam gibi etleri iyi
+                pişirerek
+                vermek gereklidir.
 
-            <h1 style="text-align: center;">Kedilere Hangi Ev Yemekleri Verilir – Ev Yemeklerinin Zararları?</h1>
+                Haşlanmış sebze (patates,kabak havuç vb.) ve et kombinasyonu kediniz için sağlıklı bir mama olmaya iyi
+                bir
+                adaydır. Fakat kalsiyum için az miktarda yoğurt da menüye eklenmelidir.
 
-            Kedinize ev yemeklerinden vermek istiyorsanız, daha küçükken alıştırmanız en doğrusudur. Vereceğiniz
-            yemekler et, (tavuk, balık ve kırmızı et) haşlanmış yumurta, gibi protein ağırlıklı olmalıdır. Çünkü kediler
-            doğaları gereği proteinle beslenmelidirler.
-
-            Ancak kedilere çiğ et vermek iç parazit oluşumuna neden olduğu için yanlıştır ve hem kedi hem de besleyen
-            sahipleri için ciddi sağlık sıkıntılarına yol açabilir. Aynı nedenle sosis,salam gibi etleri iyi pişirerek
-            vermek gereklidir.
-
-            Haşlanmış sebze (patates,kabak havuç vb.) ve et kombinasyonu kediniz için sağlıklı bir mama olmaya iyi bir
-            adaydır. Fakat kalsiyum için az miktarda yoğurt da menüye eklenmelidir.
-
-            Kediler sanılanın aksine inek sütü hazmedemezler ve içinde ki laktoz onların midelerine hiç iyi gelmez Bu
-            nedenle kedilere süt yerine kaymaksız yoğurt, tuzsuz peynir vermek daha doğru ve sağlıklı olacaktır.
+                Kediler sanılanın aksine inek sütü hazmedemezler ve içinde ki laktoz onların midelerine hiç iyi gelmez
+                Bu
+                nedenle kedilere süt yerine kaymaksız yoğurt, tuzsuz peynir vermek daha doğru ve sağlıklı olacaktır.
 
 
 
 
 
+            </div>
+            <div class="col-3"></div>
+        </div>
 
-        </p>
 
 
 
@@ -161,35 +210,36 @@
     <img src="serit2.png" width="100%" alt="ef">
     <footer>
 
-        <div class="multi">
-
-
-            <h3><strong> <ins>İletişim Bilgileri</ins> </strong></h3>
-            <strong> E-posta:</strong> <i> evcilhayvanlarındünyasi@gmail.com</i>
-            <br>
-            <strong> Telefon</strong> <i> +90 0000 000 00 00</i>
-            <br>
-            <h3><strong> <ins>Sosyal Medya</ins> </strong></h3>
-            <br>
-            <i> İnstagram</i>
-            <br>
-            <i> Facebook</i>
-            <br>
-            <i> Twitter</i>
-            <br>
-            <h3><strong> <ins>Menü</ins> </strong></h3>
-            <i> Hakkımızda</i>
-            <br>
-            <i> İletişim</i>
-            <br>
-            <i> İlanlar</i>
-            <br>
-            <i> Duyurular</i>
-            <br>
-
-
-
-
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h6><strong> <ins>İletişim Bilgileri</ins> </strong></h6>
+                    <strong> E-posta:</strong> <i> evcilhayvanlarındünyasi@gmail.com</i>
+                    <br>
+                    <strong> Telefon</strong> <i> +90 0000 000 00 00</i>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h6><strong> <ins>Sosyal Medya</ins> </strong></h6>
+                    <i> İnstagram</i>
+                    <br>
+                    <i> Facebook</i>
+                    <br>
+                    <i> Twitter</i>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h6><strong> <ins>Menü</ins> </strong></h6>
+                    <i> Hakkımızda</i>
+                    <br>
+                    <i> İletişim</i>
+                    <br>
+                    <i> İlanlar</i>
+                    <br>
+                    <i> Duyurular</i>
+                    <br>
+                </div>
+            </div>
         </div>
     </footer>
 
