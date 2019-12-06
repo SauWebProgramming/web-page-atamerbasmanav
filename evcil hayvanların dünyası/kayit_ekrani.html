@@ -6,45 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Evcil Hayvanların Dünyası</title>
-    <style>
-        form {
-            text-align: center;
-            margin: 1cm;
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-        }
-
-        .formkutu {
-
-            margin: 5px;
-        }
-
-        .tanitim {
-            text-align: center;
-        }
-
-
-        footer {
-            background-color: rgb(247, 247, 247);
-            margin: 0.9cm;
-            padding: 1cm;
-            color: rgb(209, 209, 209);
-            ;
-        }
-
-        .multi {
-            /* Column count property */
-            -webkit-column-count: 3;
-            -moz-column-count: 3;
-            column-count: 3;
-
-            /* Column gap property */
-            -webkit-column-gap: 40px;
-            -moz-column-gap: 40px;
-            column-gap: 40px;
-
-
-        }
-    </style>
+   
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -58,7 +26,7 @@
             <p id="test"> Evcil Hayvanlar | Ana Sayfa | Hakkımızda | İletişim | İlanlar | Duyurular </p>
         </div>
         <!-- MENÜNÜN NASIL GÖRÜNECEĞİ HAKKINDA, GÖRSELLİK İÇİN TEST MENÜSÜ-->
-
+        <img src="serit2.png" width="100%" alt="ef">
 
     </header>
 
@@ -73,7 +41,7 @@
                 aramıza hoş geldin!
             </P>
         </div>
-        <form method="GET">
+        <form action="ana_ekran.html">
             <input type="text" name="isim" id="isim" placeholder="İsminizi girin" class="formkutu">
 
             <input type="text" name="soyisim" id="soyisim" placeholder="Soyisminizi girin" class="formkutu">
@@ -97,35 +65,44 @@
 
     <footer>
 
-        <div class="multi">
-
-
-            <h3><strong> <ins>İletişim Bilgileri</ins> </strong></h3>
-            <strong> E-posta:</strong> <i> evcilhayvanlarındünyasi@gmail.com</i>
-            <br>
-            <strong> Telefon</strong> <i> +90 0000 000 00 00</i>
-            <br>
-            <h3><strong> <ins>Sosyal Medya</ins> </strong></h3>
-            <br>
-            <i> İnstagram</i>
-            <br>
-            <i> Facebook</i>
-            <br>
-            <i> Twitter</i>
-            <br>
-            <h3><strong> <ins>Menü</ins> </strong></h3>
-            <i> Hakkımızda</i>
-            <br>
-            <i> İletişim</i>
-            <br>
-            <i> İlanlar</i>
-            <br>
-            <i> Duyurular</i>
-            <br>
-
-
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h6><strong> <ins>İletişim Bilgileri</ins> </strong></h6>
+                    <strong> E-posta:</strong> <i> evcilhayvanlarındünyasi@gmail.com</i>
+                    <br>
+                    <strong> Telefon</strong> <i> +90 0000 000 00 00</i>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h6><strong> <ins>Sosyal Medya</ins> </strong></h6>
+                    <i> İnstagram</i>
+                    <br>
+                    <i> Facebook</i>
+                    <br>
+                    <i> Twitter</i>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h6><strong> <ins>Menü</ins> </strong></h6>
+                    <i> Hakkımızda</i>
+                    <br>
+                    <i> İletişim</i>
+                    <br>
+                    <i> İlanlar</i>
+                    <br>
+                    <i> Duyurular</i>
+                    <br>
+                </div>
+            </div>
+        </div> 
     </footer>
+
+
+
+
+
+
 
 </body>
 
