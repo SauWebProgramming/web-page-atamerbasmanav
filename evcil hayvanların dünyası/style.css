@@ -1,0 +1,53 @@
+
+h1{
+    font-family: Aaux ProLight;
+}
+#ana_sayfa_hayvan_logoları {
+    text-align: center;
+}
+
+#test_menü_görünümü {
+    background-color: rgb(255, 255, 255);
+
+}
+
+#test {
+    text-align: center;
+    color: black;
+
+}
+
+footer {
+    background-image: url(ftr.png);
+  
+    margin: 0.9cm;
+    padding: 1cm;
+    color: white;
+    ;
+}
+
+.col-4 {
+    padding-left: 140px;
+}
+main {
+    width: 99%;
+}
+
+form {
+    text-align: center;
+    margin: 1cm;
+
+}
+
+.formkutu {
+
+    margin: 5px;
+}
+
+.tanitim {
+    text-align: center;
+}
+
+.metin {
+    margin: 35px;
+}
