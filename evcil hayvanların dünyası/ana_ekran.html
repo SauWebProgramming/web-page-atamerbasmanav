@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,18 +18,48 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header style="text-align:center">
         <a href="ana_ekran.html"><img src="logo2.png" width="55%" alt="logo/yüklenemedi"></a>
-        <!-- MENÜ EKLENECEK-->
 
-        <div id="test_menü_görünümü">
-            <p id="test"> Evcil Hayvanlar | Ana Sayfa | Hakkımızda | İletişim | İlanlar | Duyurular </p>
+
+        <div class="menü">
+            <ul class="menü_ul">
+                <li class="menü_li" id="anasayfa"><a href="ana_ekran.html">Ana sayfa</a></li>
+
+                <li class="menü_li" id="hakkımızda"><a href="hakkimizda.html">Hakkımızda</a></li>
+
+                <li class="menü_li" id="evilcil_hayvanlar"><a href="#Ders">Evcil Hayvanlar</a>
+                    <ul class="menü_ul">
+
+                        <li class="menü_li" id="kopek"><a href="kopek.html">Köpek</a></li>
+
+                        <li class="menü_li" id="kedi"><a href="kedi.html">Kedi</a></li>
+
+                        <li class="menü_li" id="kus"><a href="kus.html">Kuş</a></li>
+
+                        <li class="menü_li" id="balik"><a href="balik.html">Balık</a></li>
+                    </ul>
+
+                </li>
+
+                <li class="menü_li" id="ilanlar"><a href="ilanlar.html">İlanlar</a></li>
+
+                <li class="menü_li" id="duyurular"><a href="duyurular.html">Duyurular</a></li>
+
+                <li class="menü_li" id="iletisim"><a href="iletisim.html">İletişim</a></li>
+
+                <li class="menü_li" id="galeri"><a href="galeri.html">Galeri</a></li>
+
+                <li class="menü_li" id="kaydol"><a href="kayit_ekrani.html">Kaydol</a></li>
+            </ul>
+
         </div>
-        <!-- MENÜNÜN NASIL GÖRÜNECEĞİ HAKKINDA, GÖRSELLİK İÇİN TEST MENÜSÜ-->
+
+
         <img src="serit2.png" width="100%" alt="ef">
 
     </header>
@@ -49,7 +80,7 @@
                 <br>
                 Sitemizde daha iyi bir şekilde vakit geçirmek için kayıt olmayı unutma!
                 <br>
-                <a href="kayit_ekrani.html" target="blank"><b>Buraya tıklayarak</b></a> kolayca kayıt olabilirsin!
+                <a href="kayit_ekrani.html"><b>Buraya tıklayarak</b></a> kolayca kayıt olabilirsin!
             </p>
         </div>
         <!-- LOGOLAR-->
