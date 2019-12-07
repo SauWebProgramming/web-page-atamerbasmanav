@@ -31,6 +31,7 @@ footer {
 }
 main {
     width: 99%;
+    
 }
 
 form {
@@ -51,3 +52,99 @@ form {
 .metin {
     margin: 35px;
 }
+
+ /* menü */
+ .menü {
+    text-align: center;
+    background-image: url(ftr.png);
+}
+
+.menü_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.menü_li {
+    display: inline-block;
+}
+
+.menü_li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menü_li a:hover {
+    background-color: #f39c12;
+}
+
+.menü_ul .menü_li .menü_ul {
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 100px
+}
+
+.menü_ul .menü_li:hover .menü_ul {
+    display: block;
+}
+
+.menü_li .menü_ul .menü_li {
+    display: block;
+}
+
+#anasayfa a:hover {
+
+
+    background-color: #fff315;
+}
+
+#hakkımızda a:hover {
+    background-color: #93e415;
+}
+
+#evilcil_hayvanlar a:hover {
+    background-color: #0fc85d;
+}
+
+#kopek a:hover {
+    background-color: #ffb100;
+}
+
+#kedi a:hover {
+    background-color: #02a0cf;
+}
+
+#kus a:hover {
+    background-color: #06ab0f;
+}
+
+#balik a:hover {
+    background-color: #ee5a82;
+}
+
+#ilanlar a:hover {
+    background-color: #00ffff;
+}
+
+#duyurular a:hover {
+    background-color: #03cafe;
+}
+
+#iletisim a:hover {
+    background-color: #9d7cad;
+}
+
+#galeri a:hover {
+    background-color: #ef456e;
+}
+
+#kaydol a:hover {
+    background-color: #e6813a;
+}
+ /* menü */
