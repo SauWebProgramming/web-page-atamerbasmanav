@@ -1,3 +1,16 @@
+.kutu{
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
+
+.ilan{
+ background-color: #f0f0f0;
+padding: 50px;
+margin: 5px;
+border-radius: 30px;
+
+}
+
 
 h1{
     font-family: Aaux ProLight;
@@ -33,6 +46,9 @@ main {
     width: 99%;
     
 }
+header{
+    width: 99%;
+}
 
 form {
     text-align: center;
@@ -55,16 +71,22 @@ form {
 
  /* menü */
  .menü {
+    
     text-align: center;
-    background-image: url(ftr.png);
+    font-size: 14px;
+  
 }
 
 .menü_ul {
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: #f0f0f0 ;
+
+    border-radius: 100px;
+    
 }
 
 .menü_li {
@@ -84,7 +106,7 @@ form {
 }
 
 .menü_ul .menü_li .menü_ul {
-    background-color: white;
+    background-color: #e6e6e6 ;
     display: none;
     position: absolute;
     width: 100px
@@ -101,15 +123,15 @@ form {
 #anasayfa a:hover {
 
 
-    background-color: #fff315;
+    background-color: #fff512;
 }
 
 #hakkımızda a:hover {
-    background-color: #93e415;
+    background-color: #84df19;
 }
 
 #evilcil_hayvanlar a:hover {
-    background-color: #0fc85d;
+    background-color: #00f3d3;
 }
 
 #kopek a:hover {
@@ -129,22 +151,62 @@ form {
 }
 
 #ilanlar a:hover {
-    background-color: #00ffff;
+    background-color: #12c1f6;
 }
 
 #duyurular a:hover {
-    background-color: #03cafe;
+    background-color: #9281b4;
 }
 
 #iletisim a:hover {
-    background-color: #9d7cad;
+    background-color: #ef456a;
 }
 
 #galeri a:hover {
-    background-color: #ef456e;
+    background-color: #e55153;
 }
 
 #kaydol a:hover {
-    background-color: #e6813a;
+    background-color: #e9d116;
 }
- /* menü */
+       /* menü */
+
+       /* GALERİ */
+
+       .item-container {
+        margin: 25px;
+        width: 30%;
+        float: left;
+        padding: 10px;
+
+    }
+
+    .galeri_item {
+
+        border: 1px solid white;
+
+    }
+
+    .galeri_item:hover {
+        cursor: pointer;
+        border: 1px solid gray;
+
+    }
+
+    .galeri_item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+
+    }
+
+    .galeri_tanım {
+        text-align: center;
+        padding: 15px;
+        font-style: italic;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+
+        /* GALERİ */
