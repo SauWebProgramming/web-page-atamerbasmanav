@@ -1,3 +1,29 @@
+
+/* resim animasyonu */
+
+.aw-zoom {
+    position: relative;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+
+}
+
+.aw-zoom:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* resim animasyonu */
+
+
 .kutu{
     background-color: #f0f0f0;
     border-radius: 3px;
