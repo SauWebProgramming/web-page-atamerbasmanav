@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>başvuru</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header style="text-align:center" id="logo">
+        <a href="ana_ekran.html"><img src="logo2.png" width="55%" alt="logo/yüklenemedi"></a>
+
+
+
+
+        <div class="menü">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <ul class="menü_ul">
+                        <li class="menü_li" id="anasayfa"><a href="ana_ekran.html">Ana sayfa</a></li>
+
+                        <li class="menü_li" id="hakkımızda"><a href="hakkimizda.html">Hakkımızda</a></li>
+
+                        <li class="menü_li" id="evilcil_hayvanlar"><a href="#Ders">Evcil Hayvanlar</a>
+                            <ul class="menü_ul">
+
+                                <li class="menü_li" id="kopek"><a href="kopek.html">Köpek</a></li>
+
+                                <li class="menü_li" id="kedi"><a href="kedi.html">Kedi</a></li>
+
+                                <li class="menü_li" id="kus"><a href="kus.html">Kuş</a></li>
+
+                                <li class="menü_li" id="balik"><a href="balik.html">Balık</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="menü_li" id="ilanlar"><a href="ilanlar.html">İlanlar</a></li>
+
+                        <li class="menü_li" id="duyurular"><a href="duyurular.html">Duyurular</a></li>
+
+                        <li class="menü_li" id="iletisim"><a href="iletisim.html">İletişim</a></li>
+
+                        <li class="menü_li" id="galeri"><a href="galeri.html">Galeri</a></li>
+
+                        <li class="menü_li" id="kaydol"><a href="kayit_ekrani.html">Kaydol</a></li>
+                    </ul>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+        <img src="serit2.png" width="100%" alt="ef">
+
+    </header>
+
+    <main>
+        <div class="tanitim">
+            <h1>Evcil Hayvan Sahiplenmek İçin Başvuru Formu!</h1>
+            <P>
+
+                Yuvası olmayan bir evcil hayvanı sahiplenecek olmana çok sevindik. Sahiplenme işlemi için aşağıda yer
+                alan formu doldurmanız gerekmektedir.
+            </P>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+
+                <form action="tesekkurler.html"  id="kayitForm" class="ilan">
+                    <p> <u> Kişel Bilgileriniz:</u></p>
+                    <input type="text" name="isim" id="isim" placeholder="İsminiz" class="formkutu">
+
+                    <input type="text" name="soyisim" id="soyisim" placeholder="Soyisminiz" class="formkutu">
+                    <br>
+                    <input type="text" name="telno" placeholder="Telefon numaranız" class="formkutu">
+
+                    <input type="text" id="email" name="email" placeholder="E-posta adresiniz" class="formkutu">
+                    <br>
+                    <input type="date" id="date" name="bday" placeholder="E-posta adresinizi girin">
+                    <br>
+                    <select name="Sehir" class="formkutu">
+                        <option value="0">Şehir seçin</option>
+                        <option value="1">Adana</option>
+                        <option value="2">Adıyaman</option>
+                        <option value="3">Afyonkarahisar</option>
+                        <option value="4">Ağrı</option>
+                        <option value="5">Amasya</option>
+                        <option value="6">Ankara</option>
+                        <option value="7">Antalya</option>
+                        <option value="8">Artvin</option>
+                        <option value="9">Aydın</option>
+                        <option value="10">Balıkesir</option>
+                        <option value="11">Bilecik</option>
+                        <option value="12">Bingöl</option>
+                        <option value="13">Bitlis</option>
+                        <option value="14">Bolu</option>
+                        <option value="15">Burdur</option>
+                        <option value="16">Bursa</option>
+                        <option value="17">Çanakkale</option>
+                        <option value="18">Çankırı</option>
+                        <option value="19">Çorum</option>
+                        <option value="20">Denizli</option>
+                        <option value="21">Diyarbakır</option>
+                        <option value="22">Edirne</option>
+                        <option value="23">Elazığ</option>
+                        <option value="24">Erzincan</option>
+                        <option value="25">Erzurum</option>
+                        <option value="26">Eskişehir</option>
+                        <option value="27">Gaziantep</option>
+                        <option value="28">Giresun</option>
+                        <option value="29">Gümüşhane</option>
+                        <option value="30">Hakkâri</option>
+                        <option value="31">Hatay</option>
+                        <option value="32">Isparta</option>
+                        <option value="33">Mersin</option>
+                        <option value="34">İstanbul</option>
+                        <option value="35">İzmir</option>
+                        <option value="36">Kars</option>
+                        <option value="37">Kastamonu</option>
+                        <option value="38">Kayseri</option>
+                        <option value="39">Kırklareli</option>
+                        <option value="40">Kırşehir</option>
+                        <option value="41">Kocaeli</option>
+                        <option value="42">Konya</option>
+                        <option value="43">Kütahya</option>
+                        <option value="44">Malatya</option>
+                        <option value="45">Manisa</option>
+                        <option value="46">Kahramanmaraş</option>
+                        <option value="47">Mardin</option>
+                        <option value="48">Muğla</option>
+                        <option value="49">Muş</option>
+                        <option value="50">Nevşehir</option>
+                        <option value="51">Niğde</option>
+                        <option value="52">Ordu</option>
+                        <option value="53">Rize</option>
+                        <option value="54">Sakarya</option>
+                        <option value="55">Samsun</option>
+                        <option value="56">Siirt</option>
+                        <option value="57">Sinop</option>
+                        <option value="58">Sivas</option>
+                        <option value="59">Tekirdağ</option>
+                        <option value="60">Tokat</option>
+                        <option value="61">Trabzon</option>
+                        <option value="62">Tunceli</option>
+                        <option value="63">Şanlıurfa</option>
+                        <option value="64">Uşak</option>
+                        <option value="65">Van</option>
+                        <option value="66">Yozgat</option>
+                        <option value="67">Zonguldak</option>
+                        <option value="68">Aksaray</option>
+                        <option value="69">Bayburt</option>
+                        <option value="70">Karaman</option>
+                        <option value="71">Kırıkkale</option>
+                        <option value="72">Batman</option>
+                        <option value="73">Şırnak</option>
+                        <option value="74">Bartın</option>
+                        <option value="75">Ardahan</option>
+                        <option value="76">Iğdır</option>
+                        <option value="77">Yalova</option>
+                        <option value="78">Karabük</option>
+                        <option value="79">Kilis</option>
+                        <option value="80">Osmaniye</option>
+                        <option value="81">Düzce</option>
+                    </select>
+                    <br>
+                    <input type="radio" name="cinsiyet" id="cinsiyet" value="erkek" class="formkutu">Erkek
+                    <input type="radio" name="cinsiyet" id="cinsiyet" value="Kadın" class="formkutu">Kadın
+                    <br>
+                    <br>
+                    <p> <u> Başvuru İşlemleri:</u></p>
+
+                    <p>Kendizini tanıtın (Meslek, hobiler vs.)</p>
+                    <textarea cols="50" rows="4"></textarea>
+                    <br>
+                    <p>Neden bir evcil hayvan sahiplenmek istiyorsunuz?</p>
+                    <textarea cols="50" rows="4"></textarea>
+                    <br>
+
+                    <p>Daha önce hayvan sahiplendiniz mi?</p>
+
+                    <input type="radio" name="evet/hayır" id="evet/hayır" value="Evet" class="formkutu">Evet
+                    <input type="radio" name="evet/hayır" id="evet/hayır" value="Hayır" class="formkutu">Hayır
+                    <br>
+                    <br>
+
+                    <p>Daha önce beslediğiniz evcil hayvanlar?</p>
+                    <input type="checkbox" name="hayvan" value="yok">Yok
+                    <br>
+                    <input type="checkbox" name="hayvan" value="Kus">Kuş
+                    <br>
+                    <input type="checkbox" name="hayvan" value="Kedi">Kedi
+                    <br>
+                    <input type="checkbox" name="hayvan" value="Balık">Balık
+                    <br>
+                    <input type="checkbox" name="hayvan" value="Köpek">Köpek
+                    <br>
+                    <br>
+                    
+                    <p>Son olarak eklemek istediğiniz bir şey var mı?</p>
+                    <textarea cols="50" rows="4"></textarea>
+
+                    <br>
+                    <br>
+                    <input type="submit" value="Başvur">
+
+
+                </form>
+
+
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <img src="serit2.png" width="100%" alt="ef">
+    </main>
+
+
+
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h6><strong> <ins>İletişim Bilgileri</ins> </strong></h6>
+                    <strong> E-posta:</strong> <i> evcilhayvanlarındünyasi@gmail.com</i>
+                    <br>
+                    <strong> Telefon</strong> <i> +90 0000 000 00 00</i>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h6><strong> <ins>Sosyal Medya</ins> </strong></h6>
+                    <i> İnstagram</i>
+                    <br>
+                    <i> Facebook</i>
+                    <br>
+                    <i> Twitter</i>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h6><strong> <ins>Menü</ins> </strong></h6>
+                    <i> Hakkımızda</i>
+                    <br>
+                    <i> İletişim</i>
+                    <br>
+                    <i> İlanlar</i>
+                    <br>
+                    <i> Duyurular</i>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
