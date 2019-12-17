@@ -1,4 +1,100 @@
 
+ /*************slider***************/
+
+ .s-container {
+    width: 1000px;
+    margin: 0px auto;
+}
+.s-duyuru {
+    width: 100%;
+    background-color: #f0f0f0 ;
+    margin: 2px;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 700px;
+    overflow: auto;
+    float: right;
+    border: 2px solid #f0f0f0;
+    border-radius: 20px;
+
+}
+.s-duyuru ul {
+
+    width: 100%;
+    padding: 10px;
+}
+
+.s-duyuru ul:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.s-duyuru ul li {
+    width: 50%;
+    float: right;
+    list-style: none;
+}
+
+.s-duyuru ul li p {
+    font-style: italic;
+    font-size: 13px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.s-duyuru ul img {
+    width: 50%;
+    padding: 2px;
+}
+
+#tittle {
+    height: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+#tittle li {
+    width: 100%;
+}
+
+.date {
+
+    float: right;
+    color: #aaa;
+    font-size: 12px;
+
+}
+
+#menü0 {
+    width: 50%;
+    float:center;
+    margin-left: 350px;
+    margin-top: 37px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a-slider {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 135%;
+    background: #f0f0f0 ;
+}
+#s-container {
+    width: 1300px;
+    margin: 2px auto;
+}
+/*************slider***************/
+
+
 /* resim animasyonu */
 
 .aw-zoom {
@@ -110,8 +206,8 @@ form {
     padding: 0;
     overflow: hidden;
     background-color: #f0f0f0 ;
-
     border-radius: 100px;
+    
     
 }
 
