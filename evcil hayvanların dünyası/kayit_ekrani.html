@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,75 +16,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
-
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript">
-
-        function formkontrol() {
-
-            adi = document.getElementById('ad').value;
-            sifre = document.getElementById('sifre').value;
-            tsifre = document.getElementById('tsifre').value;
-
-            var hata = new Array();
-            var sembol = '*|,:<>[]{}`;()@&$#%!+-"/';
-
-            var sembolvar = false;
-            for (var i = 0; i < sifre.length; i++) {
-                if (sembol.indexOf(sifre.charAt(i)) != -1) {
-                    sembolvar = true;
-                }
-            }
-
-
-            if (adi == "")
-                hata.push('Lütfen Kullanıcı adını boş geçmeyiniz');
-            else if (adi.length < 4)
-                hata.push('Lütfen kullanıcı adı alanını 3 karakterden büyük giriniz');
-
-
-            if (sifre == '')
-                hata.push('Şifre alanını boş geçmeyiniz');
-            else {
-                if (sifre != tsifre)
-                    hata.push('Şifreler aynı olmalıdır.');
-
-                else if (sifre.length < 6)
-                    hata.push('Şifre 6 karekter veya daha büyük olmalıdır.');
-
-                else if (sifre.search(/[a-z]/) < 0)
-                    hata.push("Şifre en az bir Küçük harf içermelidir.");
-
-                else if (sifre.search(/[A-Z]/) < 0)
-                    hata.push("Şifre en az bir Büyük harf içermelidir.");
-
-                else if (sifre.search(/[0-9]/) < 0)
-                    hata.push("Şifre en az bir rakam içermelidir.");
-            }
-
-
-
-
-
-            if (hata.length > 0) {
-                alert(hata.join("\n"));
-                return false;
-            }
-            else alert('Tamam şifre uygun'); //buraya return true diyebiliriz
-
-        }
-
-
-    </script>
+    <script src="javascript.js"></script>
 </head>
-
 <body>
     <header style="text-align:center" id="logo">
-        <a href="ana_ekran.html"><img src="logo2.png" width="55%" alt="logo/yüklenemedi"></a>
-
-
-
+        <a href="ana_ekran.html"><img src="gorseller/logo2.png" width="55%" alt="logo/yüklenemedi"></a>
         <div class="menü">
             <div class="row">
                 <div class="col-3"></div>
@@ -133,7 +69,7 @@
             </div>
         </div>
 
-        <img src="serit2.png" width="100%" alt="ef">
+        <img src="gorseller/serit2.png" width="100%" alt="ef">
 
     </header>
 
@@ -153,7 +89,7 @@
             <div class="col-3"></div>
             <div class="col-6">
 
-                <form id="kayitForm"  class="ilan">
+                <form id="kayitForm" class="ilan">
                     <input type="text" name="isim" id="isim" placeholder="İsminizi girin" class="formkutu">
 
                     <input type="text" name="soyisim" id="soyisim" placeholder="Soyisminizi girin" class="formkutu">
@@ -167,8 +103,6 @@
                     <br>
                     <input type="password" id="tsifre" name="tsifre" placeholder="Şifrenizi tekrar girin"
                         class="formkutu">
-
-
                     <input type="text" id="email" name="email" placeholder="E-posta adresinizi girin" class="formkutu">
                     <br>
                     <input type="date" id="date" name="bday" placeholder="E-posta adresinizi girin">
@@ -269,13 +203,9 @@
             </div>
             <div class="col-3"></div>
         </div>
-        <img src="serit2.png" width="100%" alt="ef">
+        <img src="gorseller/serit2.png" width="100%" alt="ef">
     </main>
-
-
-
     <footer>
-
         <div class="container">
             <div class="row">
                 <div class="col-4">
@@ -287,28 +217,24 @@
                 </div>
                 <div class="col-4">
                     <h6><strong> <ins>Sosyal Medya</ins> </strong></h6>
-                    <i> İnstagram</i>
+                    <a style="color: white;" href="https://www.instagram.com/"><i> İnstagram</i></a>
                     <br>
-                    <i> Facebook</i>
+                    <a style="color: white;" href="https://www.facebook.com/"><i> Facebook</i></a>
                     <br>
-                    <i> Twitter</i>
+                    <a style="color: white;" href="https://twitter.com/"><i> Twitter</i></a>
                     <br>
                 </div>
                 <div class="col-4">
                     <h6><strong> <ins>Menü</ins> </strong></h6>
-                    <i> Hakkımızda</i>
+                    <a style="color: white;" href="hakkimizda.html"><i> Hakkımızda</i></a>
                     <br>
-                    <i> İletişim</i>
-                    <br>
-                    <i> İlanlar</i>
-                    <br>
-                    <i> Duyurular</i>
+                    <a style="color: white;" href="iletisim.html"><i> İletişim</i></a>
+
                     <br>
                 </div>
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
