@@ -1,5 +1,5 @@
 
- /*************slider***************/
+ /*_____________SLİDER CSS_____________*/
 
  .s-container {
     width: 1000px;
@@ -92,10 +92,10 @@
     width: 1300px;
     margin: 2px auto;
 }
-/*************slider***************/
+/* _____________SLİDER CSS_____________*/
 
 
-/* resim animasyonu */
+/* _____________GÖRSELLERİN CSS_____________ */
 
 .aw-zoom {
     position: relative;
@@ -117,9 +117,9 @@
     transform: scale(1.1);
 }
 
-/* resim animasyonu */
+/* _____________GÖRSELLERİN CSS_____________ */
 
-
+/* _____________GENEL CSS_____________ */
 .kutu{
     background-color: #f0f0f0;
     border-radius: 3px;
@@ -135,7 +135,7 @@ border-radius: 30px;
 
 
 h1{
-    font-family: Aaux ProLight;
+    font-family: Candara;
 }
 #ana_sayfa_hayvan_logoları {
     text-align: center;
@@ -153,7 +153,7 @@ h1{
 }
 
 footer {
-    background-image: url(ftr.png);
+    background-image: url(gorseller/ftr.png);
   
     margin: 0.9cm;
     padding: 1cm;
@@ -190,8 +190,9 @@ form {
 .metin {
     margin: 35px;
 }
+/* _____________GENEL CSS_____________ */
 
- /* menü */
+ /*_____________ MENÜ CSS_____________ */
  .menü {
     
     text-align: center;
@@ -291,9 +292,9 @@ form {
 #kaydol a:hover {
     background-color: #e9d116;
 }
-       /* menü */
+       /* _____________MENÜ CSS_____________ */
 
-       /* GALERİ */
+       /* _____________GALERİ CSS_____________ */
 
        .item-container {
         margin: 25px;
@@ -331,4 +332,4 @@ form {
     }
 
 
-        /* GALERİ */
+        /* _____________GALERİ_____________ */
